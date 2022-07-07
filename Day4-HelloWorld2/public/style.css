@@ -1,0 +1,43 @@
+html, body {
+height: 100%;
+width: 100%;
+}
+.font {
+font-family: "Copperplate", Fantasy;
+font-size: 200%;
+}
+.btn {
+height: 50px;
+width: 340px;
+font-size: 100%;
+background-color: lightblue;
+color: black;
+border-color: black;
+border-radius: 5px;
+}
+.btn:hover {
+background-color: #daf3fb;
+border-color: #616161;
+cursor: grab;
+}
+.form {
+width: 300px;
+padding: 20px;
+background-color: lightblue;
+}
+.input {
+border-radius: 4px;
+}
+.move {
+margin-left: auto;
+margin-right: auto;
+background-color: gray;
+width: 300px;
+height: 300px;
+}
+.square {
+position: relative;
+width: 15px;
+height: 15px;
+background-color: red;
+}
